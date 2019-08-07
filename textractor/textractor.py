@@ -1,8 +1,11 @@
 #!/usr/local/bin/python3.7
 
-import sys,pytesseract,os
+####################################
+# Author: Amit Nizri               #
+# Date: Aug, 2019                  #
+####################################
 
-#modes: -h help, -f files,-c --capture,-d directory.
+import sys,pytesseract,os
 
 
 def __scan(ls):
