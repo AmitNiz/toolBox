@@ -6,6 +6,9 @@
 # Date: Aug, 2019                                   #
 #####################################################
 
+#TODO: 
+#add capture mode.
+
 import sys,pytesseract,os
 
 
@@ -26,11 +29,11 @@ def capture():
 
 def directory():
     try:
-        ls = os.listdir(sys.argv[2])
+        path = sys.argv[2]
+        ls = [os.path.join(path,name) for name in os.listdir(path)]
     except:
         sys.stderr.write("[!] The given path isn't valid\n\n")
         exit(1)
-    ls = ['{}/{}'.format(sys.argv[2].strip('/'),f) for f in ls]
     __scan(ls)
 
 def help_page():
