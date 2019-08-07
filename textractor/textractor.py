@@ -1,9 +1,10 @@
 #!/usr/local/bin/python3.7
 
-####################################
-# Author: Amit Nizri               #
-# Date: Aug, 2019                  #
-####################################
+#####################################################
+# Author: Amit Nizri                                #
+# Repository: github.com/AmitNiz/toolBox/textractor #
+# Date: Aug, 2019                                   #
+#####################################################
 
 import sys,pytesseract,os
 
