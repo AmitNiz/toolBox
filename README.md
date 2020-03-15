@@ -2,4 +2,6 @@
 Useful scripts and programs.
 
 ## Tools
-- Textractor -  Easy to use CLI tool for extracting text from images.
+- Textractor - Simple CLI tool for extracting text from images.
+
+- Cyclic - Light implementation of pwntools's cyclic tool for creating De Bruijn sequence.
