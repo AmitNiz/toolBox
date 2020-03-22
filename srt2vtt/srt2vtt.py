@@ -2,9 +2,9 @@
 
 #  /-----------------------------------------------------------------------\
 # |                        ~srt to vtt converter~                           |
-# |                                                                         |
-# |                           github.com/AmitNiz                            |  
-# |                                 2020                                    |
+# |                           -----------------                             |
+# |                       github.com/AmitNiz/toolBox                        |  
+# |                                March 2020                               |
 #  \-----------------------------------------------------------------------/
 
 import sys
@@ -13,9 +13,6 @@ import os
 MAGIC_BYTES = 'WEBVTT\n\n'
 
 input_files = []
-files_contents = {}
-
-
 
 #convert srt file to vtt
 def convert2vtt(file_name,srt_file):
