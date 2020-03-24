@@ -46,9 +46,9 @@ else:
         print('[!] Error: Invalid Input File..')
 
 try:
-    
+
     for file in input_files:
-        with open(file,'r') as f:
+        with open(file,'r',errors='ignore') as f:
             content = f.read()
             new_name = file.split('.')[0] +'.vtt'
             converted_file = convert2vtt(file,content)
